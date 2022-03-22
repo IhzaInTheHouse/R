@@ -1095,7 +1095,7 @@ menu =
 ➪ *Permanen :* _10.000_
 
 ───────────────
-*_By RzLModz_* :
+*_By IhzBotz_* :
 ───────────────
 \`\`\`OPEN MURIDBOT :\`\`\`
 ➪ *Murid biasa :* _20.000_
@@ -1104,9 +1104,7 @@ menu =
 \`\`\`OPEN BUAT SC :\`\`\`
 ➪ *Script Store :* _Hubungi owner_
 ➪ *Script Biasa :* _Hubungi owner_
-Untuk yang mau beli script / sc
-Bisa request jika minat silakan hubungi RzLModz
-Nomor : https://wa.me/message/DXZST7RDO5AYD1`
+`
 RzL.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time} WIB_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'ᴘᴀʏᴍᴇɴᴛ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
 case 'bayar':
@@ -1115,10 +1113,10 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 gambar = fs.readFileSync('./media/sewa.jpg')
 menunya = `*「 PAYMENT 」*
 
-• Gopay : _088274342094_
-• Dana : _088274342094_
+• Gopay : _089522981807_
+• Dana : _089522984807_
 • Qris All pay : _Scan diatas ngab_
-• Pulsa : _083836899381_
+• Pulsa : _089522984807_
 • _NOTE :kirim bukti TF ke owner !_`
 but = [
 { buttonId: `${prefix}menu`, buttonText: { displayText: 'ᴍᴇɴᴜ' }, type: 1 },
